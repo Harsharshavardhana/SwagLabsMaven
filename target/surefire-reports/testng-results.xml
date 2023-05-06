@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-23T11:28:00Z" name="Suite" finished-at="2023-04-23T11:28:54Z" duration-ms="53438">
+    <groups>
+    </groups>
+    <test started-at="2023-04-23T11:28:00Z" name="Test" finished-at="2023-04-23T11:28:54Z" duration-ms="53438">
+      <class name="Test.LoginTest">
+        <test-method is-config="true" signature="Reportsetup()[pri:0, instance:Test.LoginTest@3f57bcad]" started-at="2023-04-23T11:28:00Z" name="Reportsetup" finished-at="2023-04-23T11:28:01Z" duration-ms="962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Reportsetup -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Test.LoginTest@3f57bcad]" started-at="2023-04-23T11:28:01Z" name="setup" finished-at="2023-04-23T11:28:24Z" duration-ms="22347" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.LoginTest.NegativeTestCase() throws com.codoid.products.exception.FilloException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="NegativeTestCase()[pri:0, instance:Test.LoginTest@3f57bcad]" started-at="2023-04-23T11:28:24Z" name="NegativeTestCase" finished-at="2023-04-23T11:28:25Z" duration-ms="1021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NegativeTestCase -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:Test.LoginTest@3f57bcad]" started-at="2023-04-23T11:28:25Z" name="closeall" finished-at="2023-04-23T11:28:25Z" duration-ms="490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Test.LoginTest@3f57bcad]" started-at="2023-04-23T11:28:25Z" name="setup" finished-at="2023-04-23T11:28:53Z" duration-ms="27310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Test.LoginTest.PostiveTestCase() throws com.codoid.products.exception.FilloException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="PostiveTestCase()[pri:0, instance:Test.LoginTest@3f57bcad]" started-at="2023-04-23T11:28:53Z" name="PostiveTestCase" finished-at="2023-04-23T11:28:53Z" duration-ms="867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostiveTestCase -->
+        <test-method is-config="true" signature="closeall()[pri:0, instance:Test.LoginTest@3f57bcad]" started-at="2023-04-23T11:28:53Z" name="closeall" finished-at="2023-04-23T11:28:54Z" duration-ms="402" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeall -->
+      </class> <!-- Test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
